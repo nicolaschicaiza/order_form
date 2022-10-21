@@ -1,32 +1,108 @@
 * {
-  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
 }
 
 body {
-  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+form {
+  margin: auto;
+  width: 60%;
+  box-shadow: 3px 3px 6px gray;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 3em;
+  font-weight: 900 bold;
   color: black;
 }
 
 #header {
   display: flex;
   background-color: #c8b8a8;
-  height: 50px;
+  height: 30px;
   margin: 0px;
-  border: black;
   align-items: center;
   padding: 10px;
-  border: gray 2px solid;
+  border: gray 1px solid;
   border-style: outset;
-  box-shadow: 5px 5px 10px gray;
 }
 
-div {
+#form {
   background-color: #e4ddd7;
-  border: black;
+  border: gray 1px solid;
 }
 
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+label {
+  display: flex;
+}
+
+.label {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  margin: 30px;
+  border-width: 0px;
+}
+
+ul {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+input {
+  width: 50%;
+  height: 1.5em;
+
+}
+
+legend {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+}
+
+.button {
+  font-size: 1.5em;
+  width: 8em;
+  height: 1.8em;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: center;
+  border: 1px;
+  background-color: #c8b8a8;
+}
+
+.button:hover {
+  border: red 5px;
+  background-color: #aa9d90;
+}
