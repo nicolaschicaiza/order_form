@@ -45,10 +45,14 @@ hr {
 li {
   list-style-type: none;
   margin-bottom: 5px;
+  padding-right: 10px;
 }
 
 label {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .label {
@@ -58,7 +62,17 @@ label {
 
 .address {
   display: flex;
+  width: 65%;
   flex-direction: column;
+}
+
+.code {
+  display: flex;
+}
+
+.address input {
+  width: 100%;
+  margin: 1px;
 }
 
 fieldset {
@@ -68,15 +82,15 @@ fieldset {
 }
 
 ul {
-  padding-top: 10px;
   display: grid;
+  padding-top: 10px;
   grid-template-columns: 50% 50%;
 }
 
 input {
-  width: 50%;
+  width: 65%;
   height: 1.5em;
-
+  padding: 1px 1px 0px 0px;
 }
 
 legend {

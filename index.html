@@ -35,7 +35,7 @@
               <div class="address">
                 <input type="address1" name="Address Line 1" placeholder="Address Line 1" />
                 <input type="address2" name="Address Line 2" placeholder="Address Line 2" />
-                <div>
+                <div class="code">
                   <input type="City" name="city" placeholder="Town/City" />
                   <input type="zip" name="zip" placeholder="Zip Code" />
                   <input type="state" name="state" placeholder="State" />
@@ -44,9 +44,9 @@
                   <option value="0">Country</option>
                   <option value="US">United State</option>
                   <option value="CA">Canada</option>
+                </select>
               </div>
               <!-- <div>&nbsp;</div> -->
-              </select>
             </label>
           </li>
           <li>
@@ -68,9 +68,13 @@
             </label>
           </li>
           <li>
+          </li>
+          <li>
             <label>
               <div class="label">Twitter</div>
-              <span class="twitter_prefix">@</span><input name="twitter" class="twitter" />
+              <div>
+                <span class="twitter_prefix">@</span><input name="twitter" class="twitter" />
+              </div>
             </label>
           </li>
         </ul>
